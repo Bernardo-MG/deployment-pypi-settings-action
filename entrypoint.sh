@@ -20,9 +20,6 @@
 # Fails if any commands returns a non-zero value
 set -e
 
-username=${1:-}
-password=${2:-}
-
 settings_path=".pypirc"
 
 # The contents of the file are created
