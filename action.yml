@@ -1,15 +1,5 @@
 name: 'Build Maven settings for deployment'
 description: 'Build Maven settings for deploying artifacts'
-inputs:
-  username:
-    description: 'Deployment username'
-    required: true
-  password:
-    description: 'Deployment password'
-    required: true
 runs:
   using: 'docker'
   image: 'Dockerfile'
-  args:
-    - ${{ inputs.username }}
-    - ${{ inputs.password }}
