@@ -27,7 +27,7 @@ settings_path="${HOME}/.pypirc"
    echo "[distutils]";
 
    echo "index-servers =";
-   echo "    pypi";
+   echo "   pypi";
 
    echo "[pypi]";
    echo "username: ${DEPLOY_USER}";
