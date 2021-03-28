@@ -22,11 +22,6 @@ set -e
 
 settings_path=".pypirc"
 
-# The contents of the file are created
-{
-   echo "[distutils]";
-} >> ${settings_path}
-
 echo "Created Maven settings file at ${settings_path}"
 
 exit 0
