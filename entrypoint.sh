@@ -20,7 +20,7 @@
 # Fails if any commands returns a non-zero value
 set -e
 
-settings_path="${HOME}/.pypirc"
+settings_path=".pypirc"
 
 # The contents of the file are created
 {
