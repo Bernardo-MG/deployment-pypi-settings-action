@@ -24,14 +24,14 @@ settings_path=".pypirc"
 
 # The contents of the file are created
 {
-   echo "[distutils]
+   echo "[distutils]";
 
-   echo "index-servers ="
-   echo "    pypi"
+   echo "index-servers =";
+   echo "    pypi";
 
-   echo "[pypi]"
-   echo "username: ${DEPLOY_USER}"
-   echo "password: ${DEPLOY_PASSWORD}"
+   echo "[pypi]";
+   echo "username: ${DEPLOY_USER}";
+   echo "password: ${DEPLOY_PASSWORD}";
 } >> ${settings_path}
 
 echo "Created Maven settings file at ${settings_path}"
