@@ -10,9 +10,8 @@ Sets up the Pypi settings for deploying artifacts.
 
 ### Inputs
 
-- version-type: the version being built (release/develop)
-- deployment-profile: name of the deployment profile (optional)
-- deployment-develop-profile: name of the deployment for development profile (optional)
+- username: deployment username
+- password: deployment password
 
 ## Collaborate
 
