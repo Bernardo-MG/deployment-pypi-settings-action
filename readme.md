@@ -31,6 +31,6 @@ If you wish to fork or modify the code, visit the [GitHub project page][scm], wh
 ## License
 The project has been released under the [MIT License][license].
 
-[issues]: https://github.com/Bernardo-MG/deployment-maven-settings-action/issues
+[issues]: https://github.com/Bernardo-MG/deployment-pypi-settings-action/issues
 [license]: https://www.opensource.org/licenses/mit-license.php
-[scm]: https://github.com/Bernardo-MG/deployment-maven-settings-action
+[scm]: https://github.com/Bernardo-MG/deployment-pypi-settings-action
